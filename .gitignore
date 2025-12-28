@@ -1,0 +1,38 @@
+# dependencies
+node_modules
+.pnpm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# production
+build
+dist
+out
+
+# next
+.next
+.turbo
+
+# misc
+.DS_Store
+*.pem
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+
+# Vercel
+.vercel
+
+# Testing
+coverage
